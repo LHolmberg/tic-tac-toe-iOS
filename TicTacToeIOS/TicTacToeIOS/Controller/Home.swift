@@ -1,11 +1,3 @@
-//
-//  Home.swift
-//  ChessIOS
-//
-//  Created by Lukas Holmberg on 2020-06-11.
-//  Copyright © 2020 Stefan Holmberg. All rights reserved.
-//
-
 import UIKit
 import FirebaseUI
 import SpriteKit
@@ -13,8 +5,8 @@ import SpriteKit
 class Home: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
     @IBOutlet weak var tableView: UITableView!
-
     var tempArr: NSMutableArray = []
+    var refreshControl = UIRefreshControl()
     
     func Initialize() {
         DataHandeler.instance._REF_USERS_.child(Auth.auth().currentUser!.value(forKey: "uid") as!
@@ -38,8 +30,6 @@ class Home: UIViewController, UITableViewDataSource, UITableViewDelegate {
             }
         }
     }
-    
-    var refreshControl = UIRefreshControl()
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -49,8 +39,8 @@ class Home: UIViewController, UITableViewDataSource, UITableViewDelegate {
         refreshControl.addTarget(self, action: #selector(self.refresh(_:)), for: .valueChanged)
         tableView.addSubview(refreshControl)
         Initialize()
-        self.tableView.reloadData()
     }
+    
     @objc func refresh(_ sender: AnyObject) {
         Initialize()
         refreshControl.endRefreshing()
@@ -58,9 +48,7 @@ class Home: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(true)
-        print("VIEW WILL APPEAR")
         Initialize()
-        self.tableView.reloadData()
     }
     
     @IBAction func InvitesBtn(_ sender: Any) {
@@ -88,22 +76,21 @@ class Home: UIViewController, UITableViewDataSource, UITableViewDelegate {
             if let vc: TicTacToeVC = segue.destination as? TicTacToeVC {
                 vc.id = sender as! Int
             }
-            
         }
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "ActiveGameTVCell", for: indexPath as IndexPath) as! ActiveGameTVCell
         var opponentEmail: String = ""
-        let dict = tempArr[indexPath.row] as! [String: Any]
-        opponentEmail = dict["email"] as! String
+        let opponentDict = tempArr[indexPath.row] as! [String: Any]
+        
+        opponentEmail = opponentDict["email"] as! String
         DataHandeler.instance.GetUsername(email: opponentEmail) { (username) in
             cell.opponentTxt.text = username
         }
         
         DataHandeler.instance._REF_USERS_.child(Auth.auth().currentUser!.uid).child("active_games").child(String(indexPath.row)).observeSingleEvent(of: .value) { (snapshot) in
             if let t = snapshot.value as? [String: Any] {
-            
                 if t["team"] != nil {
                     if t["turn"] as! Int % 2 == 0 {
                         DispatchQueue.main.async {
@@ -130,12 +117,11 @@ class Home: UIViewController, UITableViewDataSource, UITableViewDelegate {
                 self.Initialize()
                 self.tableView.reloadData()
             }
-    }
-           return cell
+        }
+        return cell
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return tempArr.count
     }
-    
 }

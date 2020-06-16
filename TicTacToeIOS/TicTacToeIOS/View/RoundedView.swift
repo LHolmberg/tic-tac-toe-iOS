@@ -1,11 +1,3 @@
-//
-//  RoundedView.swift
-//  ChessIOS
-//
-//  Created by Lukas Holmberg on 2020-06-14.
-//  Copyright © 2020 Stefan Holmberg. All rights reserved.
-//
-
 import Foundation
 import UIKit
 

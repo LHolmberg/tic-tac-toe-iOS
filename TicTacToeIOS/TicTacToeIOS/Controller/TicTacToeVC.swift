@@ -1,11 +1,3 @@
-//
-//  TicTacToeVC.swift
-//  ChessIOS
-//
-//  Created by Lukas Holmberg on 2020-06-14.
-//  Copyright © 2020 Stefan Holmberg. All rights reserved.
-//
-
 import SpriteKit
 
 class TicTacToeVC: UIViewController {
@@ -14,7 +6,7 @@ class TicTacToeVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        if let scene = GameScene(fileNamed:"TicTacToeScene") {
+        if let scene = GameScene(fileNamed: "TicTacToeScene") {
             // Configure the view.
             let skView = self.view as! SKView
             scene.ID = self.id

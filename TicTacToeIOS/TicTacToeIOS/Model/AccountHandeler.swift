@@ -1,11 +1,3 @@
-//
-//  AccountHandeler.swift
-//  ChessIOS
-//
-//  Created by Lukas Holmberg on 2020-06-11.
-//  Copyright © 2020 Stefan Holmberg. All rights reserved.
-//
-
 import Foundation
 import Firebase
 import FirebaseUI
@@ -37,7 +29,7 @@ class AccountHandeler {
     }
     
     func LoginUser(loginComplete: @escaping(_ status: Bool, _ error: Error?) -> Void) {
-        Auth.auth().signIn(withEmail: email, password: password) { (authDataResult, error) in
+        Auth.auth().signIn(withEmail: email, password: password) { (_, error) in
             if error != nil {
                 loginComplete(false, error)
                 return
@@ -45,9 +37,5 @@ class AccountHandeler {
             
             loginComplete(true, nil)
         }
-    }
-    
-    func RemoveUser(removeComplete: @escaping(_ status: Bool, _ error: Error?) -> Void) {
-        //
     }
 }

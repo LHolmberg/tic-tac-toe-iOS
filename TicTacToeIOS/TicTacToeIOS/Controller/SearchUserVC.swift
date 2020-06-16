@@ -1,11 +1,3 @@
-//
-//  SearchUserVC.swift
-//  ChessIOS
-//
-//  Created by Lukas Holmberg on 2020-06-13.
-//  Copyright © 2020 Stefan Holmberg. All rights reserved.
-//
-
 import UIKit
 
 class SearchUserVC: UIViewController {

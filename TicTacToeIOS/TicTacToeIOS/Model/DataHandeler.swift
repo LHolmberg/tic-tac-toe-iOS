@@ -1,11 +1,3 @@
-//
-//  DataHandeler.swift
-//  ChessIOS
-//
-//  Created by Lukas Holmberg on 2020-06-11.
-//  Copyright © 2020 Stefan Holmberg. All rights reserved.
-//
-
 import Foundation
 import Firebase
 
@@ -90,7 +82,7 @@ class DataHandeler {
     
     func RemoveInvite(email: String, id: Int) {
         GetInvites { (invites, _) in
-            var a = self._REF_USERS_.child(Auth.auth().currentUser!.uid).child("invites")
+            let a = self._REF_USERS_.child(Auth.auth().currentUser!.uid).child("invites")
             a.observeSingleEvent(of: .value) { (snapshot) in
                 let dict = invites as! [[String: String]]
                 for i in 0...dict.count-1 {
@@ -115,9 +107,8 @@ class DataHandeler {
         FindUser(username: username) { (foundUser, success) in
             if success == true {
                 let user = foundUser.value as! [String: Any]
-                let cUID: String = Auth.auth().currentUser!.uid
-                let val: [String: String] = ["email": Auth.auth().currentUser!.email as! String]
-                self.GetInvites() { (invites, filled) in
+                let val: [String: String] = ["email": Auth.auth().currentUser!.email!]
+                self.GetInvites { (invites, _) in
                     // swiftlint:disable all
                     var position: Int = 0
                     if invites.count > 0 {

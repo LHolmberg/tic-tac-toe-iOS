@@ -7,12 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3372258CC2D74AD32E8A6CD9 /* Pods_ChessIOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 310473CF16B8BB1519967159 /* Pods_ChessIOSTests.framework */; };
+		78016BA2A520B0C7E1FBA0B1 /* Pods_ChessIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BB530368D8D6013EB2A963F /* Pods_ChessIOS.framework */; };
+		8181DD192492D6D700D39A6F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8181DD182492D6D600D39A6F /* GoogleService-Info.plist */; };
 		8190DB9124926E210058A0B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8190DB9024926E210058A0B2 /* AppDelegate.swift */; };
-		8190DB9324926E210058A0B2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8190DB9224926E210058A0B2 /* ViewController.swift */; };
+		8190DB9324926E210058A0B2 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8190DB9224926E210058A0B2 /* SignInVC.swift */; };
 		8190DB9624926E210058A0B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8190DB9424926E210058A0B2 /* Main.storyboard */; };
 		8190DB9824926E230058A0B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8190DB9724926E230058A0B2 /* Assets.xcassets */; };
 		8190DB9B24926E230058A0B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8190DB9924926E230058A0B2 /* LaunchScreen.storyboard */; };
 		8190DBA624926E230058A0B2 /* ChessIOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8190DBA524926E230058A0B2 /* ChessIOSTests.swift */; };
+		8190DBB4249289940058A0B2 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8190DBB3249289940058A0B2 /* SignUpVC.swift */; };
+		8190DBB62492899F0058A0B2 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8190DBB52492899F0058A0B2 /* Home.swift */; };
+		8190DBB92492C19D0058A0B2 /* DataHandeler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8190DBB82492C19D0058A0B2 /* DataHandeler.swift */; };
+		8190DBBB2492C1A60058A0B2 /* AccountHandeler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8190DBBA2492C1A60058A0B2 /* AccountHandeler.swift */; };
+		81A0AB9724966758002390D0 /* RoundedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A0AB9624966758002390D0 /* RoundedView.swift */; };
+		81A0AB9924969111002390D0 /* TicTacToeScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 81A0AB9824969111002390D0 /* TicTacToeScene.sks */; };
+		81A0AB9B2496C715002390D0 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A0AB9A2496C715002390D0 /* GameScene.swift */; };
+		81A0AB9F2496CAD4002390D0 /* TicTacToeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A0AB9E2496CAD4002390D0 /* TicTacToeVC.swift */; };
+		81AC239A24941AA000E814AA /* ActiveGameTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81AC239924941AA000E814AA /* ActiveGameTVCell.swift */; };
+		81AC239C249448B400E814AA /* SearchUserVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81AC239B249448B400E814AA /* SearchUserVC.swift */; };
+		81AC239E24944F6400E814AA /* InvitesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81AC239D24944F6400E814AA /* InvitesVC.swift */; };
+		81AC23A024944FDB00E814AA /* InviteTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81AC239F24944FDB00E814AA /* InviteTVCell.swift */; };
+		81C3250624993A4700EE60EF /* ResultVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C3250524993A4700EE60EF /* ResultVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,9 +42,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		180C38395F8E877C08636E5B /* Pods-ChessIOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChessIOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChessIOSTests/Pods-ChessIOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		310473CF16B8BB1519967159 /* Pods_ChessIOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChessIOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		54B9D05B2F95CE81B50FCD45 /* Pods-ChessIOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChessIOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChessIOS/Pods-ChessIOS.release.xcconfig"; sourceTree = "<group>"; };
+		6BB530368D8D6013EB2A963F /* Pods_ChessIOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChessIOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8181DD182492D6D600D39A6F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		8190DB8D24926E210058A0B2 /* ChessIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChessIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8190DB9024926E210058A0B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8190DB9224926E210058A0B2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8190DB9224926E210058A0B2 /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
 		8190DB9524926E210058A0B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8190DB9724926E230058A0B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8190DB9A24926E230058A0B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +57,21 @@
 		8190DBA124926E230058A0B2 /* ChessIOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChessIOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8190DBA524926E230058A0B2 /* ChessIOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChessIOSTests.swift; sourceTree = "<group>"; };
 		8190DBA724926E230058A0B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8190DBB3249289940058A0B2 /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		8190DBB52492899F0058A0B2 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		8190DBB82492C19D0058A0B2 /* DataHandeler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataHandeler.swift; sourceTree = "<group>"; };
+		8190DBBA2492C1A60058A0B2 /* AccountHandeler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountHandeler.swift; sourceTree = "<group>"; };
+		81A0AB9624966758002390D0 /* RoundedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedView.swift; sourceTree = "<group>"; };
+		81A0AB9824969111002390D0 /* TicTacToeScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = TicTacToeScene.sks; sourceTree = "<group>"; };
+		81A0AB9A2496C715002390D0 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		81A0AB9E2496CAD4002390D0 /* TicTacToeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacToeVC.swift; sourceTree = "<group>"; };
+		81AC239924941AA000E814AA /* ActiveGameTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveGameTVCell.swift; sourceTree = "<group>"; };
+		81AC239B249448B400E814AA /* SearchUserVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchUserVC.swift; sourceTree = "<group>"; };
+		81AC239D24944F6400E814AA /* InvitesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvitesVC.swift; sourceTree = "<group>"; };
+		81AC239F24944FDB00E814AA /* InviteTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InviteTVCell.swift; sourceTree = "<group>"; };
+		81C3250524993A4700EE60EF /* ResultVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultVC.swift; sourceTree = "<group>"; };
+		92809ACFF87ADFC0CDA82A39 /* Pods-ChessIOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChessIOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChessIOSTests/Pods-ChessIOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		B8002028EC20EEEFFAD4AAFE /* Pods-ChessIOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChessIOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChessIOS/Pods-ChessIOS.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78016BA2A520B0C7E1FBA0B1 /* Pods_ChessIOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,18 +87,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3372258CC2D74AD32E8A6CD9 /* Pods_ChessIOSTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4662F69B34ACE14E0B2399BE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B8002028EC20EEEFFAD4AAFE /* Pods-ChessIOS.debug.xcconfig */,
+				54B9D05B2F95CE81B50FCD45 /* Pods-ChessIOS.release.xcconfig */,
+				180C38395F8E877C08636E5B /* Pods-ChessIOSTests.debug.xcconfig */,
+				92809ACFF87ADFC0CDA82A39 /* Pods-ChessIOSTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		73760B7BD82AF0941BBC192D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6BB530368D8D6013EB2A963F /* Pods_ChessIOS.framework */,
+				310473CF16B8BB1519967159 /* Pods_ChessIOSTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8190DB8424926E200058A0B2 = {
 			isa = PBXGroup;
 			children = (
 				8190DB8F24926E210058A0B2 /* ChessIOS */,
 				8190DBA424926E230058A0B2 /* ChessIOSTests */,
 				8190DB8E24926E210058A0B2 /* Products */,
+				4662F69B34ACE14E0B2399BE /* Pods */,
+				73760B7BD82AF0941BBC192D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,8 +137,11 @@
 		8190DB8F24926E210058A0B2 /* ChessIOS */ = {
 			isa = PBXGroup;
 			children = (
+				8181DD182492D6D600D39A6F /* GoogleService-Info.plist */,
+				8190DBB1249289120058A0B2 /* Model */,
+				8190DBB2249289170058A0B2 /* View */,
+				8190DBB0249288FB0058A0B2 /* Controller */,
 				8190DB9024926E210058A0B2 /* AppDelegate.swift */,
-				8190DB9224926E210058A0B2 /* ViewController.swift */,
 				8190DB9424926E210058A0B2 /* Main.storyboard */,
 				8190DB9724926E230058A0B2 /* Assets.xcassets */,
 				8190DB9924926E230058A0B2 /* LaunchScreen.storyboard */,
@@ -96,6 +159,41 @@
 			path = ChessIOSTests;
 			sourceTree = "<group>";
 		};
+		8190DBB0249288FB0058A0B2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8190DB9224926E210058A0B2 /* SignInVC.swift */,
+				8190DBB3249289940058A0B2 /* SignUpVC.swift */,
+				8190DBB52492899F0058A0B2 /* Home.swift */,
+				81AC239B249448B400E814AA /* SearchUserVC.swift */,
+				81AC239D24944F6400E814AA /* InvitesVC.swift */,
+				81A0AB9824969111002390D0 /* TicTacToeScene.sks */,
+				81A0AB9A2496C715002390D0 /* GameScene.swift */,
+				81A0AB9E2496CAD4002390D0 /* TicTacToeVC.swift */,
+				81C3250524993A4700EE60EF /* ResultVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8190DBB1249289120058A0B2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8190DBB82492C19D0058A0B2 /* DataHandeler.swift */,
+				8190DBBA2492C1A60058A0B2 /* AccountHandeler.swift */,
+				81AC239924941AA000E814AA /* ActiveGameTVCell.swift */,
+				81AC239F24944FDB00E814AA /* InviteTVCell.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8190DBB2249289170058A0B2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				81A0AB9624966758002390D0 /* RoundedView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +201,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8190DBAA24926E230058A0B2 /* Build configuration list for PBXNativeTarget "ChessIOS" */;
 			buildPhases = (
+				899C42AEC4805A3F6DC85CC6 /* [CP] Check Pods Manifest.lock */,
 				8190DB8924926E210058A0B2 /* Sources */,
 				8190DB8A24926E210058A0B2 /* Frameworks */,
 				8190DB8B24926E210058A0B2 /* Resources */,
+				8190DBB724929C1F0058A0B2 /* ShellScript */,
+				44CE9ABD53EF0DC8E33FAE8B /* [CP] Embed Pods Frameworks */,
+				E361CD60734FE2E7BFBCAA63 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -120,6 +222,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8190DBAD24926E230058A0B2 /* Build configuration list for PBXNativeTarget "ChessIOSTests" */;
 			buildPhases = (
+				1FCBC866D8360AC3547211E2 /* [CP] Check Pods Manifest.lock */,
 				8190DB9D24926E230058A0B2 /* Sources */,
 				8190DB9E24926E230058A0B2 /* Frameworks */,
 				8190DB9F24926E230058A0B2 /* Resources */,
@@ -178,6 +281,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8190DB9B24926E230058A0B2 /* LaunchScreen.storyboard in Resources */,
+				8181DD192492D6D700D39A6F /* GoogleService-Info.plist in Resources */,
+				81A0AB9924969111002390D0 /* TicTacToeScene.sks in Resources */,
 				8190DB9824926E230058A0B2 /* Assets.xcassets in Resources */,
 				8190DB9624926E210058A0B2 /* Main.storyboard in Resources */,
 			);
@@ -192,12 +297,156 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1FCBC866D8360AC3547211E2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChessIOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		44CE9ABD53EF0DC8E33FAE8B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ChessIOS/Pods-ChessIOS-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL-GRPC/openssl_grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${PODS_ROOT}/TwitterCore/iOS/TwitterCore.framework",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-C++/grpcpp.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl_grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TwitterCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TwitterKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChessIOS/Pods-ChessIOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8190DBB724929C1F0058A0B2 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+		899C42AEC4805A3F6DC85CC6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChessIOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E361CD60734FE2E7BFBCAA63 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ChessIOS/Pods-ChessIOS-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseAnonymousAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseEmailAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseFacebookAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseGoogleAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebasePhoneAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseTwitterAuthUI.bundle",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework/TwitterKitResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseAnonymousAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseEmailAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseFacebookAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseGoogleAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebasePhoneAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseTwitterAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TwitterKitResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChessIOS/Pods-ChessIOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8190DB8924926E210058A0B2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8190DB9324926E210058A0B2 /* ViewController.swift in Sources */,
+				8190DB9324926E210058A0B2 /* SignInVC.swift in Sources */,
+				8190DBB92492C19D0058A0B2 /* DataHandeler.swift in Sources */,
+				81AC239E24944F6400E814AA /* InvitesVC.swift in Sources */,
+				8190DBB4249289940058A0B2 /* SignUpVC.swift in Sources */,
+				81AC239C249448B400E814AA /* SearchUserVC.swift in Sources */,
+				8190DBB62492899F0058A0B2 /* Home.swift in Sources */,
+				81A0AB9B2496C715002390D0 /* GameScene.swift in Sources */,
+				81AC23A024944FDB00E814AA /* InviteTVCell.swift in Sources */,
+				81A0AB9F2496CAD4002390D0 /* TicTacToeVC.swift in Sources */,
+				81AC239A24941AA000E814AA /* ActiveGameTVCell.swift in Sources */,
+				8190DBBB2492C1A60058A0B2 /* AccountHandeler.swift in Sources */,
+				81C3250624993A4700EE60EF /* ResultVC.swift in Sources */,
+				81A0AB9724966758002390D0 /* RoundedView.swift in Sources */,
 				8190DB9124926E210058A0B2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -358,6 +607,7 @@
 		};
 		8190DBAB24926E230058A0B2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8002028EC20EEEFFAD4AAFE /* Pods-ChessIOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -376,6 +626,7 @@
 		};
 		8190DBAC24926E230058A0B2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54B9D05B2F95CE81B50FCD45 /* Pods-ChessIOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -394,6 +645,7 @@
 		};
 		8190DBAE24926E230058A0B2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 180C38395F8E877C08636E5B /* Pods-ChessIOSTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -415,6 +667,7 @@
 		};
 		8190DBAF24926E230058A0B2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92809ACFF87ADFC0CDA82A39 /* Pods-ChessIOSTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";

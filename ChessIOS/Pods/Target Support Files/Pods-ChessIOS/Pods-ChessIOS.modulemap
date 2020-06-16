@@ -1,0 +1,6 @@
+framework module Pods_ChessIOS {
+  umbrella header "Pods-ChessIOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

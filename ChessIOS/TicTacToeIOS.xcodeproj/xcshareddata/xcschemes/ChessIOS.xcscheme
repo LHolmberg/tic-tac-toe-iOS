@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "8190DB8C24926E210058A0B2"
-               BuildableName = "ChessIOS.app"
-               BlueprintName = "ChessIOS"
-               ReferencedContainer = "container:ChessIOS.xcodeproj">
+               BuildableName = "TicTacToeIOS.app"
+               BlueprintName = "TicTacToeIOS"
+               ReferencedContainer = "container:TicTacToeIOS.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -27,29 +27,27 @@
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "8190DB8C24926E210058A0B2"
+            BuildableName = "TicTacToeIOS.app"
+            BlueprintName = "TicTacToeIOS"
+            ReferencedContainer = "container:TicTacToeIOS.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <Testables>
          <TestableReference
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "8190DBA024926E230058A0B2"
-               BuildableName = "ChessIOSTests.xctest"
-               BlueprintName = "ChessIOSTests"
-               ReferencedContainer = "container:ChessIOS.xcodeproj">
+               BuildableName = "TicTacToeIOSTests.xctest"
+               BlueprintName = "TicTacToeIOSTests"
+               ReferencedContainer = "container:TicTacToeIOS.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "8190DB8C24926E210058A0B2"
-            BuildableName = "ChessIOS.app"
-            BlueprintName = "ChessIOS"
-            ReferencedContainer = "container:ChessIOS.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
-      <AdditionalOptions>
-      </AdditionalOptions>
    </TestAction>
    <LaunchAction
       buildConfiguration = "Debug"
@@ -66,13 +64,11 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8190DB8C24926E210058A0B2"
-            BuildableName = "ChessIOS.app"
-            BlueprintName = "ChessIOS"
-            ReferencedContainer = "container:ChessIOS.xcodeproj">
+            BuildableName = "TicTacToeIOS.app"
+            BlueprintName = "TicTacToeIOS"
+            ReferencedContainer = "container:TicTacToeIOS.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
-      <AdditionalOptions>
-      </AdditionalOptions>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -85,9 +81,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8190DB8C24926E210058A0B2"
-            BuildableName = "ChessIOS.app"
-            BlueprintName = "ChessIOS"
-            ReferencedContainer = "container:ChessIOS.xcodeproj">
+            BuildableName = "TicTacToeIOS.app"
+            BlueprintName = "TicTacToeIOS"
+            ReferencedContainer = "container:TicTacToeIOS.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -47,14 +47,14 @@
 		54B9D05B2F95CE81B50FCD45 /* Pods-ChessIOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChessIOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChessIOS/Pods-ChessIOS.release.xcconfig"; sourceTree = "<group>"; };
 		6BB530368D8D6013EB2A963F /* Pods_ChessIOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChessIOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8181DD182492D6D600D39A6F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		8190DB8D24926E210058A0B2 /* ChessIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChessIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8190DB8D24926E210058A0B2 /* TicTacToeIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TicTacToeIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8190DB9024926E210058A0B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8190DB9224926E210058A0B2 /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
 		8190DB9524926E210058A0B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8190DB9724926E230058A0B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8190DB9A24926E230058A0B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8190DB9C24926E230058A0B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8190DBA124926E230058A0B2 /* ChessIOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChessIOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8190DBA124926E230058A0B2 /* TicTacToeIOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TicTacToeIOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8190DBA524926E230058A0B2 /* ChessIOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChessIOSTests.swift; sourceTree = "<group>"; };
 		8190DBA724926E230058A0B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8190DBB3249289940058A0B2 /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
@@ -128,8 +128,8 @@
 		8190DB8E24926E210058A0B2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8190DB8D24926E210058A0B2 /* ChessIOS.app */,
-				8190DBA124926E230058A0B2 /* ChessIOSTests.xctest */,
+				8190DB8D24926E210058A0B2 /* TicTacToeIOS.app */,
+				8190DBA124926E230058A0B2 /* TicTacToeIOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -197,9 +197,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8190DB8C24926E210058A0B2 /* ChessIOS */ = {
+		8190DB8C24926E210058A0B2 /* TicTacToeIOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8190DBAA24926E230058A0B2 /* Build configuration list for PBXNativeTarget "ChessIOS" */;
+			buildConfigurationList = 8190DBAA24926E230058A0B2 /* Build configuration list for PBXNativeTarget "TicTacToeIOS" */;
 			buildPhases = (
 				899C42AEC4805A3F6DC85CC6 /* [CP] Check Pods Manifest.lock */,
 				8190DB8924926E210058A0B2 /* Sources */,
@@ -213,14 +213,14 @@
 			);
 			dependencies = (
 			);
-			name = ChessIOS;
+			name = TicTacToeIOS;
 			productName = ChessIOS;
-			productReference = 8190DB8D24926E210058A0B2 /* ChessIOS.app */;
+			productReference = 8190DB8D24926E210058A0B2 /* TicTacToeIOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		8190DBA024926E230058A0B2 /* ChessIOSTests */ = {
+		8190DBA024926E230058A0B2 /* TicTacToeIOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8190DBAD24926E230058A0B2 /* Build configuration list for PBXNativeTarget "ChessIOSTests" */;
+			buildConfigurationList = 8190DBAD24926E230058A0B2 /* Build configuration list for PBXNativeTarget "TicTacToeIOSTests" */;
 			buildPhases = (
 				1FCBC866D8360AC3547211E2 /* [CP] Check Pods Manifest.lock */,
 				8190DB9D24926E230058A0B2 /* Sources */,
@@ -232,9 +232,9 @@
 			dependencies = (
 				8190DBA324926E230058A0B2 /* PBXTargetDependency */,
 			);
-			name = ChessIOSTests;
+			name = TicTacToeIOSTests;
 			productName = ChessIOSTests;
-			productReference = 8190DBA124926E230058A0B2 /* ChessIOSTests.xctest */;
+			productReference = 8190DBA124926E230058A0B2 /* TicTacToeIOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -256,7 +256,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 8190DB8824926E210058A0B2 /* Build configuration list for PBXProject "ChessIOS" */;
+			buildConfigurationList = 8190DB8824926E210058A0B2 /* Build configuration list for PBXProject "TicTacToeIOS" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -269,8 +269,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8190DB8C24926E210058A0B2 /* ChessIOS */,
-				8190DBA024926E230058A0B2 /* ChessIOSTests */,
+				8190DB8C24926E210058A0B2 /* TicTacToeIOS */,
+				8190DBA024926E230058A0B2 /* TicTacToeIOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -464,7 +464,7 @@
 /* Begin PBXTargetDependency section */
 		8190DBA324926E230058A0B2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 8190DB8C24926E210058A0B2 /* ChessIOS */;
+			target = 8190DB8C24926E210058A0B2 /* TicTacToeIOS */;
 			targetProxy = 8190DBA224926E230058A0B2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -618,7 +618,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = se.stefanholmberg.ChessIOS;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = TicTacToeIOS;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -637,7 +637,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = se.stefanholmberg.ChessIOS;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = TicTacToeIOS;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -661,7 +661,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChessIOS.app/ChessIOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TicTacToeIOS.app/TicTacToeIOS";
 			};
 			name = Debug;
 		};
@@ -683,14 +683,14 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChessIOS.app/ChessIOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TicTacToeIOS.app/TicTacToeIOS";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8190DB8824926E210058A0B2 /* Build configuration list for PBXProject "ChessIOS" */ = {
+		8190DB8824926E210058A0B2 /* Build configuration list for PBXProject "TicTacToeIOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8190DBA824926E230058A0B2 /* Debug */,
@@ -699,7 +699,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8190DBAA24926E230058A0B2 /* Build configuration list for PBXNativeTarget "ChessIOS" */ = {
+		8190DBAA24926E230058A0B2 /* Build configuration list for PBXNativeTarget "TicTacToeIOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8190DBAB24926E230058A0B2 /* Debug */,
@@ -708,7 +708,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8190DBAD24926E230058A0B2 /* Build configuration list for PBXNativeTarget "ChessIOSTests" */ = {
+		8190DBAD24926E230058A0B2 /* Build configuration list for PBXNativeTarget "TicTacToeIOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8190DBAE24926E230058A0B2 /* Debug */,

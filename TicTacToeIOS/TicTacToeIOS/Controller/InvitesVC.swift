@@ -8,10 +8,12 @@ class InvitesVC: UIViewController, UITableViewDataSource, UITableViewDelegate {
     var refreshControl = UIRefreshControl()
     
     func Initialize() {
-        DataHandeler.instance._REF_USERS_.child(Auth.auth().currentUser!.value(forKey: "uid") as! String).child("invites").observeSingleEvent(of: .value) { (snapshot) in
-            if let snap = snapshot.value as? NSArray {
-                self.tempArr = snap as! NSMutableArray
-                self.tableView.reloadData()
+        if let user = Auth.auth().currentUser {
+            DataHandeler.instance._REF_USERS_.child(user.value(forKey: "uid") as! String).child("invites").observeSingleEvent(of: .value) { (snapshot) in
+                if let snap = snapshot.value as? NSArray {
+                    self.tempArr = snap as! NSMutableArray
+                    self.tableView.reloadData()
+                }
             }
         }
     }

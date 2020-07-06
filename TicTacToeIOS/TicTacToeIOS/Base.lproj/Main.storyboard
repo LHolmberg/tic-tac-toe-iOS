@@ -11,13 +11,13 @@
         <!--Sign InVC-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController storyboardIdentifier="SignInVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BYZ-38-t0r" customClass="SignInVC" customModule="ChessIOS" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SignInVC" modalPresentationStyle="fullScreen" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BYZ-38-t0r" customClass="SignInVC" customModule="TicTacToeIOS" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" spacing="9" translatesAutoresizingMaskIntoConstraints="NO" id="neW-V5-g1J">
-                                <rect key="frame" x="20" y="217.5" width="374" height="187"/>
+                                <rect key="frame" x="20" y="244.5" width="374" height="187"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="E-mail" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gKF-Ah-C26">
                                         <rect key="frame" x="20" y="0.0" width="334" height="40"/>
@@ -83,13 +83,13 @@
         <!--Sign UpVC-->
         <scene sceneID="iBY-ep-2W5">
             <objects>
-                <viewController id="EZc-FX-612" customClass="SignUpVC" customModule="ChessIOS" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="EZc-FX-612" customClass="SignUpVC" customModule="TicTacToeIOS" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="DWm-40-KKA">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" spacing="9" translatesAutoresizingMaskIntoConstraints="NO" id="Npn-5N-fuf">
-                                <rect key="frame" x="20" y="216.5" width="374" height="189"/>
+                                <rect key="frame" x="20" y="243.5" width="374" height="189"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="E-mail" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fA3-wF-eO1">
                                         <rect key="frame" x="20" y="0.0" width="334" height="40.5"/>
@@ -130,7 +130,7 @@
                                 </constraints>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jud-vg-aJJ">
-                                <rect key="frame" x="15" y="15" width="30" height="30"/>
+                                <rect key="frame" x="15" y="59" width="30" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="30" id="2hy-fC-6bw"/>
                                     <constraint firstAttribute="height" constant="30" id="qHd-zM-ULd"/>
@@ -166,12 +166,12 @@
         <!--ResultVC-->
         <scene sceneID="20n-E2-KtF">
             <objects>
-                <viewController storyboardIdentifier="ResultVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="VOD-oP-T65" customClass="ResultVC" customModule="ChessIOS" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ResultVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="VOD-oP-T65" customClass="ResultVC" customModule="TicTacToeIOS" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Tk3-xl-Swg">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rNX-L8-JEB" customClass="RoundUIView" customModule="ChessIOS" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rNX-L8-JEB" customClass="RoundUIView" customModule="TicTacToeIOS" customModuleProvider="target">
                                 <rect key="frame" x="20" y="273" width="374" height="150"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Result" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="33D-6F-ToT">
@@ -227,19 +227,19 @@
         <!--Home-->
         <scene sceneID="RRX-QQ-mdL">
             <objects>
-                <viewController storyboardIdentifier="Home" useStoryboardIdentifierAsRestorationIdentifier="YES" id="9ve-Kn-lfd" customClass="Home" customModule="ChessIOS" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Home" modalPresentationStyle="fullScreen" useStoryboardIdentifierAsRestorationIdentifier="YES" id="9ve-Kn-lfd" customClass="Home" customModule="TicTacToeIOS" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="f13-1J-xjR">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Active games" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DXO-vN-whC">
-                                <rect key="frame" x="20" y="70" width="169" height="38.5"/>
+                                <rect key="frame" x="20" y="114" width="169" height="38.5"/>
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="28"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q9f-QJ-Leo">
-                                <rect key="frame" x="187" y="760" width="40" height="36"/>
+                                <rect key="frame" x="187" y="814" width="40" height="36"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="40" id="dUH-Rm-jQn"/>
                                     <constraint firstAttribute="height" constant="40" id="fAh-zn-qpp"/>
@@ -253,12 +253,12 @@
                                 </connections>
                             </button>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="63" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Nhg-7k-uXl">
-                                <rect key="frame" x="0.0" y="138.5" width="414" height="609.5"/>
+                                <rect key="frame" x="0.0" y="182.5" width="414" height="619.5"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <color key="separatorColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <color key="sectionIndexBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="gray" indentationWidth="10" reuseIdentifier="ActiveGameTVCell" id="hMZ-YH-ujn" customClass="ActiveGameTVCell" customModule="ChessIOS" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="gray" indentationWidth="10" reuseIdentifier="ActiveGameTVCell" id="hMZ-YH-ujn" customClass="ActiveGameTVCell" customModule="TicTacToeIOS" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="414" height="63"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="hMZ-YH-ujn" id="GSt-4b-ZIY">
@@ -295,7 +295,7 @@
                                 </prototypes>
                             </tableView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iKE-qd-9Kv">
-                                <rect key="frame" x="354" y="69.5" width="40" height="40"/>
+                                <rect key="frame" x="354" y="113.5" width="40" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="GNE-Sb-UeG"/>
                                     <constraint firstAttribute="width" constant="40" id="SOI-zf-2LV"/>
@@ -306,7 +306,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ucp-Fn-Ies">
-                                <rect key="frame" x="169" y="0.0" width="76" height="38"/>
+                                <rect key="frame" x="169" y="44" width="76" height="38"/>
                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="19"/>
                                 <state key="normal" title="Sign Out">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -316,7 +316,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="New game" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EwW-yk-bfS">
-                                <rect key="frame" x="175.5" y="798" width="63.5" height="18"/>
+                                <rect key="frame" x="175.5" y="852" width="63.5" height="18"/>
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="13"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -355,12 +355,12 @@
         <!--Search UserVC-->
         <scene sceneID="knJ-ge-xOD">
             <objects>
-                <viewController storyboardIdentifier="SearchUserVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="vMc-h5-UiG" customClass="SearchUserVC" customModule="ChessIOS" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SearchUserVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="vMc-h5-UiG" customClass="SearchUserVC" customModule="TicTacToeIOS" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="m1x-Vr-eq2">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Lba-7I-ajm" customClass="RoundUIView" customModule="ChessIOS" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Lba-7I-ajm" customClass="RoundUIView" customModule="TicTacToeIOS" customModuleProvider="target">
                                 <rect key="frame" x="20" y="273" width="374" height="150"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eBD-23-j7f">
@@ -434,7 +434,7 @@
         <!--Tic Tac ToeVC-->
         <scene sceneID="tWj-QE-PSV">
             <objects>
-                <viewController id="gHn-ak-2sw" customClass="TicTacToeVC" customModule="ChessIOS" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="gHn-ak-2sw" customClass="TicTacToeVC" customModule="TicTacToeIOS" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="mX5-y6-XZ7" customClass="SKView">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -453,7 +453,7 @@
         <!--InvitesVC-->
         <scene sceneID="zPD-SK-vbj">
             <objects>
-                <viewController storyboardIdentifier="InvitesVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Hsp-wQ-Mxf" customClass="InvitesVC" customModule="ChessIOS" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="InvitesVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Hsp-wQ-Mxf" customClass="InvitesVC" customModule="TicTacToeIOS" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="KAt-Ta-PtQ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -463,7 +463,7 @@
                                 <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <color key="sectionIndexBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="InviteTVCell" id="1EG-I2-PMz" customClass="InviteTVCell" customModule="ChessIOS" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="InviteTVCell" id="1EG-I2-PMz" customClass="InviteTVCell" customModule="TicTacToeIOS" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="414" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="1EG-I2-PMz" id="qjh-kZ-AiM">
@@ -490,7 +490,7 @@
                                                     </subviews>
                                                 </stackView>
                                             </subviews>
-                                            <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                            <color key="backgroundColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
                                             <constraints>
                                                 <constraint firstItem="vu4-Ab-oGN" firstAttribute="centerY" secondItem="qjh-kZ-AiM" secondAttribute="centerY" id="1o4-Xi-d2a"/>
                                                 <constraint firstAttribute="trailing" secondItem="vu4-Ab-oGN" secondAttribute="trailing" constant="8" id="VBK-fj-9jA"/>
